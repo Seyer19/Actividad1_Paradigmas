@@ -1,0 +1,22 @@
+# Programa de prueba del compilador
+# Los comentarios se ignoran en el analisis sintactico
+
+x = 10
+y = -4
+resultado = (x + y) * 2 ** 3
+
+if resultado > 100 {
+    print("grande")
+} elif resultado > 10 {
+    print(resultado)
+} else {
+    print("chico")
+}
+
+contador = 0
+while contador < 5 {
+    contador = contador + 1
+    print(contador)
+}
+
+promedio = suma(x, y, resultado) / 3

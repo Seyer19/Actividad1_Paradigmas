@@ -1,0 +1,29 @@
+# ============================================================
+# Archivos que NO deben subirse al repositorio
+# ============================================================
+
+# Ejecutable generado al compilar
+compilador
+compilador.exe
+
+# Archivos objeto e intermedios
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dylib
+
+# Simbolos de depuracion (macOS)
+*.dSYM/
+
+# Basura del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuracion personal del editor
+# NOTA: si el equipo quiere compartir tasks.json, borra estas dos lineas.
+# launch.json es especifico del sistema operativo (lldb en Mac, gdb en Windows),
+# asi que ese conviene mantenerlo fuera del repositorio.
+.vscode/launch.json
+.vscode/ipch/

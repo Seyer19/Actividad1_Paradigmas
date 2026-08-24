@@ -1,0 +1,5 @@
+# Este archivo tiene un error de sintaxis a proposito:
+# falta el parentesis de cierre en print
+
+x = 5
+print(x
